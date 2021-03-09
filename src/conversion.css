@@ -1,3 +1,17 @@
 .unit {
-  font-size: 12px;
+  font-size: 14px;
+}
+
+.unit a {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #591cff;
+  transition: 200ms ease-in-out;
+}
+
+a:hover {
+  color: #2ee59d;
+  font-weight: bold;
+  text-decoration: none;
 }
