@@ -11,3 +11,14 @@
   font-family: "Lato", sans-serif;
   border-radius: 10px;
 }
+
+a {
+  color: #591cff;
+  transition: 200ms ease-in-out;
+}
+
+a:hover {
+  color: #2ee59d;
+  font-weight: bold;
+  text-decoration: none;
+}
