@@ -1,5 +1,4 @@
-.weatherForecast {
-  color: red;
+.forecastInfo {
   display: block;
   text-align: center;
 }

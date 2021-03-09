@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import axios from "axios";
 import WeatherForecastInfo from "./WeatherForecastInfo";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./WeatherForecast.css";
 
 export default function WeatherForecast(props){
     const [loaded, setLoaded]=useState(false);
