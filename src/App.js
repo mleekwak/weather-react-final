@@ -10,8 +10,10 @@ function App() {
   return (
     <div className="App">
       <Weather defaultCity="Denver" />
-  
+  <br/>
+  <hr/>
       This project is created by Michelle Lee
+   
     </div>
   );
 }
