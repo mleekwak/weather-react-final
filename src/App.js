@@ -10,11 +10,12 @@ function App() {
   return (
     <div className="App">
       <Weather defaultCity="Denver" />
-  <br/>
-  <hr/>
-      This project is created by Michelle Lee
-   
-    </div>
+
+
+    <div className="Footer">This <a href="https://github.com/mleekwak/weather-react-final">open-source project</a> is created by Michelle Lee
+ </div>
+ </div>
+ 
   );
 }
 

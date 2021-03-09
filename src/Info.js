@@ -12,7 +12,7 @@ export default function Info(props){
     <div className="container">
   
         <h1>{props.data.city}</h1>
-        <h2><FormattedDate date ={props.data.date} /> </h2>
+        <h3><FormattedDate date ={props.data.date} /> </h3>
    
   <div className="row">
     <div className="col-5">
