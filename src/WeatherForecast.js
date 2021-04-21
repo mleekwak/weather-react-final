@@ -18,7 +18,7 @@ if (loaded && props.city ===forecast.city.name){
 
 return <div className="weatherForecast">
 
-    <div className="container">
+<div className="container">
   <div className="row">
     <div className="col-2">
       <WeatherForecastInfo data={forecast.list[0]}/>

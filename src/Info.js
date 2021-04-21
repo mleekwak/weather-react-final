@@ -10,7 +10,6 @@ export default function Info(props){
 
     return   <div className="WeatherInfo">
     <div className="container">
-  
         <h1>{props.data.city}</h1>
         <h3><FormattedDate date ={props.data.date} /> </h3>
    
